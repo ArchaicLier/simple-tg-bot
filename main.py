@@ -1,8 +1,8 @@
 from aiogram import Bot, Dispatcher, executor, types
 import logging
 
+# Токен от @BotFather
 API_TOKEN = ''
-
 with open('secret.txt', 'r') as token:
     API_TOKEN = token.readline()
 
